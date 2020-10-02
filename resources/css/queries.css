@@ -1,0 +1,151 @@
+/* for small devices 1201 to 1300  */
+@media only screen and (max-width: 1300px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 3%;
+  }
+}
+/* for small devices 1024 to 1200  */
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+  }
+  .row {
+    padding: 0 2%;
+  }
+}
+/* for small devices 0 to 768 to 1023  */
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .main-nav li {
+    margin-left: 20px;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .works-step {
+    margin-bottom: 30px;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 50px;
+  }
+  .steps-box:first-child {
+    margin-top: 20px;
+  }
+
+  .app-screen {
+    width: 50%;
+  }
+  .works-step div {
+    margin-right: 15px;
+    width: 51px;
+    height: 51px;
+  }
+  .btn-app img {
+    margin-right: 3px;
+    height: 47px;
+  }
+  .icon-small {
+    width: 16px;
+    margin-right: 5px;
+  }
+  .city-feature {
+    font-size: 90%;
+  }
+  .plan-box {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .plan-price {
+    font-size: 249%;
+  }
+  .contact-form {
+    width: 80%;
+  }
+}
+/* for small devices 0 to 481 to 767  */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .row,
+  .hero-text-box {
+    padding: 0 3%;
+  }
+  .col {
+    width: 100%;
+    margin: 0 0 4% 0;
+  }
+  .main-nav {
+    display: none;
+  }
+  .long-copy {
+    width: 100%;
+    margin: 0;
+  }
+  h1 {
+    font-size: 180%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+  .works-step {
+    margin-bottom: 20px;
+  }
+  .works-step:last-of-type {
+    margin-bottom: 30px;
+  }
+  .works-step div {
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+  }
+  .steps-box:first-child {
+    text-align: center;
+  }
+  .app-screen {
+    width: 40%;
+  }
+  .box {
+    padding: 1%;
+    text-align: center;
+  }
+  .box img {
+    width: 60%;
+    margin-bottom: 18px;
+  }
+  .city-feature {
+    font-size: 85%;
+    display: inline-block;
+    margin-right: 40px;
+  }
+  .city-feature:last-child {
+    margin-top: 10px;
+  }
+  .social-links {
+    margin-top: 10px;
+    float: none;
+    text-align: center;
+  }
+  footer p {
+    margin-top: 1px;
+}
+.icon-big{
+  font-size: 310%;
+}
+.icon-small{
+  font-size: 130%;
+}
+}
+/* for small devices 0 to 480px  */
+@media only screen and (max-width: 480px) {
+}
