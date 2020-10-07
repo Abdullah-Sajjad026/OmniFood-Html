@@ -85,9 +85,43 @@
     width: 100%;
     margin: 0 0 4% 0;
   }
-  .main-nav {
+  .main-nav{
     display: none;
   }
+  .main-nav {
+    float: left;
+    margin-top: 30px;
+    margin-left: 35px;
+  }
+.mobile-nav-icon{
+  display: inline-block;
+}
+.main-nav li{
+  display: block;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+  display: block;
+  border: none;
+  padding: 10px 0;
+  font-size: 100%;
+}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 10px 0;  color: #555555;
+}
+.sticky .main-nav {
+  margin-top: 10px;
+}
+.sticky .mobile-nav-icon{
+  margin-top: 10px;
+}
+.sticky .mobile-nav-icon i{
+  color: #555555;
+}
+
+
+
   .long-copy {
     width: 100%;
     margin: 0;

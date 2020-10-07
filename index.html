@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="OmniFood A, a fictional Food Delivery Website made by Abdullah Sajjad for learning and practicing HTML and CSS."/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
@@ -13,23 +14,30 @@
     <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100&display=swap" -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,400&display=swap"
         rel="stylesheet">
-    <title>Omnifood</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <title>OmniFood A</title>
 </head>
 
 <body>
 
-    <!-------- Header ---------->
+    <!------- Header ---------->
     <header>
         <nav>
             <div class="row">
                 <img src="resources/images/logo-white.png" alt="OmniFood Logo" class="logo">
                 <img src="resources/images/logo.png" alt="OmniFood Logo" class="logo-black">
-                <ul class="main-nav">
+                <ul class="main-nav js--main-nav">
                     <li><a href="#features">Food Delivery</a></li>
                     <li><a href="#works">How it works</a></li>
                     <li><a href="#cities">Our cities</a></li>
                     <li><a href="#plans">Sign up</a></li>
                 </ul>
+                <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
             </div>
         </nav>
         <div class="hero-text-box">
@@ -39,7 +47,7 @@
         </div>
     </header>
 
-    <!-------- Features-Section ---------->
+    <!------- Features-Section ---------->
     <section class="section-features js--section-features" id="features">
         <div class="row">
             <h2>Get food fast &mdash; not fast food.</h2>
@@ -82,7 +90,7 @@
         </div>
     </section>
 
-    <!------------ MEALS SECTION ------------->
+    <!----------- MEALS SECTION ------------->
 
     <section class="section-meals">
         <ul class="meals-showcase clearfix">
@@ -132,7 +140,7 @@
         </ul>
     </section>
 
-    <!--------- How It Works ----------->
+    <!-------- How It Works ----------->
     <section class="section-steps" id="works">
         <div class="row">
             <h2>How it works &mdash; Simple as 1, 2, 3</h2>
@@ -164,7 +172,7 @@
         </div>
     </section>
 
-    <!-- -------------Cities Section------------------ -->
+    <!-- ------------Cities Section------------------ -->
 
     <section class="section-cities" id="cities">
         <div class="row">
@@ -243,7 +251,7 @@
         </div>
     </section>
 
-    <!-- ---------Testimonials----------- -->
+    <!-- --------Testimonials----------- -->
 
     <section class="section-testimonials">
         <div class="row">
@@ -256,7 +264,7 @@
                     <i class="ion-quote icon-small"></i><br>
                     Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so
                     Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
-                    <cite> <img src="resources/images/customer-1.jpg"> Alberto Duncan</cite>
+                    <cite> <img src="resources/images/customer-1.jpg" alt="customer 1 photo"> Alberto Duncan</cite>
                 </blockquote>
             </div>
 
@@ -265,7 +273,7 @@
                     <i class="ion-quote icon-small"></i><br>
                     Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food
                     delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
-                    <cite> <img src="resources/images/customer-2.jpg"> Joana Silva</cite>
+                    <cite> <img src="resources/images/customer-2.jpg" alt="customer 2 photo"> Joana Silva</cite>
                 </blockquote>
             </div>
 
@@ -274,13 +282,13 @@
                     <i class="ion-quote icon-small"></i><br>
                     I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and
                     ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
-                    <cite> <img src="resources/images/customer-3.jpg"> Milton Chapman</cite>
+                    <cite> <img src="resources/images/customer-3.jpg" alt="customer 3 photo"> Milton Chapman</cite>
                 </blockquote>
             </div>
         </div>
     </section>
 
-    <!---------------------PLANS ----------------- -->
+    <!--------------------PLANS ----------------- -->
     <section class="section-plans js--section-plans" id="plans">
         <div class="row">
             <h2>Start eating healthy today</h2>
@@ -349,9 +357,10 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
 
-    <!--------------  FORM Section -------------------->
+    <!------------  FORM Section -------------------->
     <section class="section-form">
         <div class="row">
             <h2>We're happy to hear from you </h2>
@@ -411,7 +420,7 @@
                 <!-- submit button -->
                 <div class="row">
                     <div class="col span-1-of-3">
-                        <label for=""> &nbsp; </label>
+                        <label> &nbsp; </label>
                     </div>
                     <div class="col span-2-of-3">
                         <input type="submit" value="Send-it">
@@ -421,7 +430,7 @@
         </div>
     </section>
 
-    <!---------------- FOOTER ------------------>
+    <!--------------- FOOTER ------------------>
     <footer>
         <div class="row">
             <div class="col span-1-of-2">
@@ -435,8 +444,8 @@
             </div>
             <div class="col span-1-of-2">
                 <ul class="social-links">
-                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                    <li><a href="#"><i class="ion-social-facebook"></i></a> </li>
+                    <li><a href="#"><i class="ion-social-twitter"></i></a> </li>
                     <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
                     <li><a href="#"><i class="ion-social-instagram"></i></a></li>
                 </ul>
@@ -456,3 +465,8 @@
 </body>
 
 </html>
+
+<!-- * Better Comments Plugin -->
+<!-- ! alert comment -->
+<!-- ? query comment -->
+<!-- TODO what to do comment-->
